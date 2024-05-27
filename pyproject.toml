@@ -3,26 +3,36 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "paper"
+name = "introspector-meta-meme-paper"
 version = "0.0.1"
-description = "Paper - Pytorch"
-license = "MIT"
-authors = ["Kye Gomez <kye@apac.ai>"]
-homepage = "https://github.com/kyegomez/paper"
+description = "Paper - Introspector Meta Meme"
+license = "AGPL"
+authors = ["mike<jmikedupont2@gmail.com>"]
+homepage = "https://github.com/jmikedupont2/meta-introspector-paper"
 documentation = ""  # Add this if you have documentation.
 readme = "README.md"  # Assuming you have a README.md
-repository = "https://github.com/kyegomez/paper"
-keywords = ["artificial intelligence", "deep learning", "optimizers", "Prompt Engineering"]
+repository = "https://github.com/jmikedupont2/meta-introspector-paper"
+keywords = [
+"math",
+"univalent foundations",
+"homotopy type theory",
+"unimath",
+"coq",
+"proof",
+"formal reasoning",
+"logic",
+"artificial intelligence",
+"deep learning", "optimizers", "Prompt Engineering"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3.6"
+    "License :: OSI Approved :: AGPL",
+    "Programming Language :: Python :: 3.10"
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.10"
 
 
 [tool.poetry.dev-dependencies]
